@@ -5,7 +5,7 @@ jest.setTimeout(10000);
 
 describe('1 - Testes da função getMagicCard', () => {
   it('1.1 Verifique se getMagicCard é uma função.', () => {
-    expect(typeof getMagicCard()).toBe('function');
+    expect(typeof getMagicCard).toBe('function');
   });
 
   it('1.2 Verifique se a função fetch foi chamada.', async () => {
